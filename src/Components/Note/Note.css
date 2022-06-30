@@ -7,7 +7,9 @@
     background-color: blueviolet;
     border-radius: 30px;
   }
-  
+  *{
+    font-family: 'Bree Serif', serif;
+  }
   .note_text {
     flex: 1;
     resize: none;

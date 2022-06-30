@@ -8,7 +8,9 @@
     width: 60px;
     cursor: pointer;
   }
-  
+  *{
+    font-family: 'Bree Serif', serif;
+  }
   .sidebar_list {
     display: flex;
     flex-direction: column;

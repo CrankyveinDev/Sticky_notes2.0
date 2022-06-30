@@ -1,0 +1,70 @@
+*{
+    font-family: 'Bree Serif', serif;
+}
+
+.anchor{
+    font-size: 30px;
+}
+
+#a1{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    text-decoration: none;
+}
+#a2{
+    font-weight: bold;
+    color: grey;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+.btn{
+    float: right;
+    margin: 0px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+}
+
+.btn:hover{
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+}
+
+.filter{
+    color: black;
+    font-weight: bold;
+    margin:15px 40px;
+}
+
+#btn3{
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+}
+
+#btn3:hover{
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+}
+
+#btn4{
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+}
+
+#btn4:hover{
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+}

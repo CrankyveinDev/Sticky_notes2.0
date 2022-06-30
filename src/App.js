@@ -2,8 +2,10 @@ import React, { useEffect, useState } from "react";
 
 import NoteContainer from "./Components/NoteContainer/NoteContainer";
 import Sidebar from "./Components/Sidebar/Sidebar";
+import Navbar from "./Components/navbar/navbar";
 
 import "./App.css";
+import Draggable from "react-draggable";
 
 function App() {
   const [notes, setNotes] = useState(
@@ -47,13 +49,16 @@ function App() {
   }, [notes]);
 
   return (
-    <div className="App" >
-      <Sidebar addNote={addNote} />
-      <NoteContainer
-        notes={notes}
-        deleteNote={deleteNote}
-        updateText={updateText}
-      />
+    <div className="App2">
+      <Navbar/>
+      <div className="App">
+        <Sidebar addNote={addNote} />
+        <NoteContainer
+          notes={notes}
+          deleteNote={deleteNote}
+          updateText={updateText}
+        />
+      </div>
     </div>
   );
 }

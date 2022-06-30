@@ -5,7 +5,9 @@
   .note-container h2 {
     margin-bottom: 20px;
   }
-  
+  *{
+    font-family: 'Bree Serif', serif;
+  }
   .note-container_notes {
     height: 90%;
     display: flex;
